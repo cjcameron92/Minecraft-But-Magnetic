@@ -1,0 +1,22 @@
+{
+  "defaultEnabled": false,
+  "radius": 12.0,
+  "pullStrength": 0.08,
+  "verticalPullStrength": 0.03,
+  "maxPullVelocity": 0.6,
+
+  "affectLivingEntities": true,
+  "affectDroppedItems": true,
+  "affectExperienceOrbs": true,
+  "affectProjectiles": true,
+  "affectVehicles": true,
+  "affectFallingBlocks": true,
+  "affectTnt": true,
+  "affectPlayers": false,
+
+  "ignoreBosses": true,
+  "requireLineOfSight": true,
+  "particleEffects": true,
+  "soundEffects": false,
+  "tickInterval": 1
+}

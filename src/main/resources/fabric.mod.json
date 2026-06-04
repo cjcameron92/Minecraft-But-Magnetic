@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "minecraftbutmagnetic",
+  "version": "${version}",
+  "name": "Minecraft But Magnetic",
+  "description": "Nearby entities are pulled toward the player when gravity is activated.",
+  "authors": [
+    "Minecraft But Magnetic contributors"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/minecraftbutmagnetic/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.minecraftbutmagnetic.MinecraftButMagnetic"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.5",
+    "minecraft": "~26.1",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
